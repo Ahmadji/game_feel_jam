@@ -1455,7 +1455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"CameraRef","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"DashCoolDown","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"CameraRef","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"DashCoolDown","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"DashReady","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1612895889}
 --- !u!4 &1024010823
