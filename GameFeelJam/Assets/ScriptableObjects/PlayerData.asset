@@ -14,3 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationXSpeed: 2
   rotationYSpeed: 2
+  playerAcceleration: 5
+  playerJumpForce: 5
+  brakingAmplitude: 20
+  StopTime: 10
