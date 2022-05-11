@@ -15,11 +15,14 @@ MonoBehaviour:
   rotationXSpeed: 2
   rotationYSpeed: 2
   isGrounded: 1
+  canDash: 0
   acceleration: 15
   maxSpeedXZ: 30
-  maxSpeedY: 100
+  maxSpeedY: 60
   jumpHeight: 3
   brakingAmplitude: 15
   stopTime: 1
   numKeyPressed: 0
-  stopTimer: 114.18313
+  stopTimer: 25.985878
+  dashAmplitude: 20
+  dashCooldown: 5
