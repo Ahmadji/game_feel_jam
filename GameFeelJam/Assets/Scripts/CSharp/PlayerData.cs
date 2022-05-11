@@ -9,6 +9,9 @@ public class PlayerData : ScriptableObject
     [Space, Range(1, 10)]
     public float rotationYSpeed;
 
+    [Header("Player State")]
+    public bool isGrounded;
+
     [Header("Player Movement")]
     [Tooltip("The higher it is, the faster the player will reach full speed")]
     public float acceleration = 5f;
@@ -21,5 +24,9 @@ public class PlayerData : ScriptableObject
     [Tooltip("Amplitude of the force opposing the movement")]
     public float brakingAmplitude = 10f;
     [Tooltip("Time to reach full stop after releasing all keys")]
-    public float StopTime = 3f;
+    public float stopTime = 3f;
+    [HideInInspector]
+    public int numKeyPressed = 0;
+    [HideInInspector]
+    public float stopTimer = 0;
 }
