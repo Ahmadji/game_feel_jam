@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationXSpeed: 2
   rotationYSpeed: 2
+  isGrounded: 1
   acceleration: 15
   maxSpeedXZ: 30
   maxSpeedY: 100
   jumpHeight: 3
   brakingAmplitude: 15
-  StopTime: 1.5
+  stopTime: 1
+  numKeyPressed: 0
+  stopTimer: 114.18313
