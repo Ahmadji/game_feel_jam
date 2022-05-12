@@ -48,3 +48,24 @@ MonoBehaviour:
     pitch: 0.5
     loop: 1
     source: {fileID: 0}
+  - name: Dash_01
+    clip: {fileID: 8300000, guid: 17bec4cf82939d64f869ec09ffa3cf70, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash_02
+    clip: {fileID: 8300000, guid: 70b81122b19b83145b2f44c42ebe9e89, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash_03
+    clip: {fileID: 8300000, guid: 2df1f9407f9b33c4987a42f743fc6c4d, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

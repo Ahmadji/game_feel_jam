@@ -16,7 +16,7 @@ MonoBehaviour:
   - name: BMusic_01
     clip: {fileID: 8300000, guid: 1eb8fe82ac4dfdc4e86bae6180a84143, type: 3}
     audioMixerGroup: {fileID: 345662279398360858, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
-    volume: 1
+    volume: 0.1
     pitch: 1
     loop: 1
     source: {fileID: 0}
