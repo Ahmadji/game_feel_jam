@@ -17,6 +17,7 @@ MonoBehaviour:
   isGrounded: 1
   canDash: 0
   isBreathHolding: 0
+  Wallrunning: 0
   acceleration: 15
   maxSpeedXZ: 30
   maxSpeedY: 60
@@ -25,6 +26,7 @@ MonoBehaviour:
   stopTime: 1
   numKeyPressed: 0
   stopTimer: 7.8789415
+  stopTimer: 0.5962202
   dashAmplitude: 20
   dashCooldown: 5
   o2DecreaseBreathing: 0.5
@@ -40,3 +42,4 @@ MonoBehaviour:
   subtractAction: 5
   o2Index: 27
   capsuleLeft: 0
+  WallRunSpeed: 20

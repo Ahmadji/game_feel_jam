@@ -15,6 +15,7 @@ public class PlayerData : ScriptableObject
     public bool isGrounded;
     public bool canDash = true;
     public bool isBreathHolding = false;
+    public bool Wallrunning = false;
 
     [Header("Player Movement")]
     [Tooltip("The higher it is, the faster the player will reach full speed")]
@@ -59,4 +60,7 @@ public class PlayerData : ScriptableObject
     public int o2Index = 0;
     [HideInInspector]
     public int capsuleLeft = 0;
+
+    [Header("WallRun")]
+    public float WallRunSpeed = 10f;
 }
