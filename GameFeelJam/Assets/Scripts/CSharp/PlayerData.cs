@@ -51,7 +51,7 @@ public class PlayerData : ScriptableObject
     public int o2DecreaseJump = 5;
     public int o2PerCapsules = 20;
     public float breathHoldingDuration = 10f;
-    [HideInInspector]
+    //[HideInInspector]
     public List<int> o2Capsules;
     [HideInInspector]
     public float durationCooldown = 0.5f;

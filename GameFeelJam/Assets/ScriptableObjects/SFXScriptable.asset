@@ -69,3 +69,24 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: Shoot_01
+    clip: {fileID: 8300000, guid: ad1e5526289183449bf09da051f6f6a9, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Hold_01
+    clip: {fileID: 8300000, guid: e2630c1609cfb70448562578992621fd, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HeavyBreath_01
+    clip: {fileID: 8300000, guid: 6d604cbf1a317a84486c1c807b2db3a6, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
