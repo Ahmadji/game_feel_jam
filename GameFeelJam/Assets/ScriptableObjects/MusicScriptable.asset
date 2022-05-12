@@ -12,4 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b91db84966a1f4d9f1ff8b3afb8a4a, type: 3}
   m_Name: MusicScriptable
   m_EditorClassIdentifier: 
-  musics: []
+  musics:
+  - name: BMusic_01
+    clip: {fileID: 8300000, guid: 1eb8fe82ac4dfdc4e86bae6180a84143, type: 3}
+    audioMixerGroup: {fileID: 345662279398360858, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
