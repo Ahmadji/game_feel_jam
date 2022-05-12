@@ -12,4 +12,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 446886f1c0026c840a2b49a6ec40e453, type: 3}
   m_Name: SFXScriptable
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: Jump_01
+    clip: {fileID: 8300000, guid: d17c57f7f079e0d42bffb2daba148543, type: 3}
+    audioMixerGroup: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump_02
+    clip: {fileID: 8300000, guid: 2cacf5c188752044f95da0a965987a32, type: 3}
+    audioMixerGroup: {fileID: 0}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump_03
+    clip: {fileID: 8300000, guid: e8000d88f8d899a42946105131923996, type: 3}
+    audioMixerGroup: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Moving_01
+    clip: {fileID: 8300000, guid: 10060f68ba4502549aaa517a7aa388a4, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Slide_01
+    clip: {fileID: 8300000, guid: 1009c2727b8fe2d41a7e0ca8a52ff303, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.025
+    pitch: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - name: Dash_01
+    clip: {fileID: 8300000, guid: 17bec4cf82939d64f869ec09ffa3cf70, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash_02
+    clip: {fileID: 8300000, guid: 70b81122b19b83145b2f44c42ebe9e89, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash_03
+    clip: {fileID: 8300000, guid: 2df1f9407f9b33c4987a42f743fc6c4d, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

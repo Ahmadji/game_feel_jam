@@ -80,6 +80,22 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    public void StopSFX(string name)
+    {
+        // Seek the sound by its name
+        // And then plays it
+        Sound s = Array.Find(SFX.sounds, sound => sound.name == name);
+
+        if(s == null)
+        {
+            Debug.LogError("Sound : " + name + " not found!");
+        }
+        else
+        {
+            s.source.Stop();
+        }
+    }
+
     public void PlayMusic(string name)
     {
         // Seek the sound by its name

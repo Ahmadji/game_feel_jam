@@ -43,6 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90f4a05a323be494eb3f926b34342e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundMusic: 
+  backgroundMusic: BMusic_01
   SFX: {fileID: 11400000, guid: b90c71e51e75e12429763151cc09fc92, type: 2}
   Music: {fileID: 11400000, guid: c63f5e43ce442094c8099e9b1d847728, type: 2}
