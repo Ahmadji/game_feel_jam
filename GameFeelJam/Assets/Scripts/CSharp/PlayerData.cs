@@ -36,6 +36,8 @@ public class PlayerData : ScriptableObject
     [HideInInspector]
     public int numKeyPressed = 0;
     [HideInInspector]
+    public int numSideKeyPressed = 0;
+    [HideInInspector]
     public float stopTimer = 0;
 
     [Header("Player Dash")]

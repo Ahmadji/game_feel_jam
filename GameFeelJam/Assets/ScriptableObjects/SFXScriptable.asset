@@ -44,7 +44,7 @@ MonoBehaviour:
   - name: Slide_01
     clip: {fileID: 8300000, guid: 1009c2727b8fe2d41a7e0ca8a52ff303, type: 3}
     audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
-    volume: 0.05
-    pitch: 1
+    volume: 0.025
+    pitch: 0.5
     loop: 1
     source: {fileID: 0}
