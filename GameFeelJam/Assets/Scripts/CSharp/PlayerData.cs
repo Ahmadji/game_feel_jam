@@ -12,6 +12,7 @@ public class PlayerData : ScriptableObject
     [Header("Player State")]
     public bool isGrounded;
     public bool canDash = true;
+    public bool Wallrunning = false;
 
     [Header("Player Movement")]
     [Tooltip("The higher it is, the faster the player will reach full speed")]
@@ -34,4 +35,7 @@ public class PlayerData : ScriptableObject
     [Header("Player Dash")]
     public float dashAmplitude = 15f;
     public float dashCooldown = 0f;
+
+    [Header("WallRun")]
+    public float WallRunSpeed = 10f;
 }
