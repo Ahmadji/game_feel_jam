@@ -16,6 +16,7 @@ public class PlayerData : ScriptableObject
     public bool canDash = true;
     public bool isBreathHolding = false;
     public bool Wallrunning = false;
+    public bool canHarvest = false;
     public bool canDie = false;
 
     [Header("Player Movement")]
