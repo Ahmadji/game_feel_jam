@@ -16641,11 +16641,11 @@ PrefabInstance:
     - target: {fileID: 2209756497667278536, guid: 09b900d128503db4a84214c928ef0f86, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"collection":{"$content":[{"name":"groundCheckerCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"DashParticleRef","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Capsules","value":{"$content":[2,3,4,5,6],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"PostProcessingVolume","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2209756497667278536, guid: 09b900d128503db4a84214c928ef0f86, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2209756497667278536, guid: 09b900d128503db4a84214c928ef0f86, type: 3}
       propertyPath: _data._objectReferences.Array.data[7]
