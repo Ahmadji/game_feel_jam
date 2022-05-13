@@ -90,3 +90,17 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: BodyShot
+    clip: {fileID: 8300000, guid: 15f2770d7dc40f243aaf4e1a9701822a, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HeadShot
+    clip: {fileID: 8300000, guid: 79b937d57aea0bd41a07ab6de39209f7, type: 3}
+    audioMixerGroup: {fileID: 7609427850634544254, guid: 307285d6233575a4a804f04df9a96a68, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
